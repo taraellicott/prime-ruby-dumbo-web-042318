@@ -6,7 +6,7 @@ def sieve(max)
     next unless x 
     break if x*x > max
     counter +=1
-    (p*p).step(max,p) { |m| primes[m] = nil }
+    (x*x).step(max,x) { |y| primes[y] = nil }
   end
   puts "Solved for #{max} in #{counter} steps."
   primes.compact
