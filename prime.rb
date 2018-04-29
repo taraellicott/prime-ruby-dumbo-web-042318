@@ -16,6 +16,7 @@ end
 def prime?(num)
   sieve(num).include?(num)
 end
+ 
     
 # def sieve(max)
 #   # Set up an array with all the numbers from 0 to the max
